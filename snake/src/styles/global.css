@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppings", sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #191919;
+  color: white;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 320px;
+}
+
+canvas {
+  display: none;
+  background-color: #111;
+}
+
+.initial-menu {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.initial-menu input {
+  width: 30%;
+  padding: 16px;
+  background-color: black;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.initial-menu button {
+  width: 30%;
+  padding: 16px;
+  background-color: rgb(42, 179, 54);
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.initial-menu button:hover {
+  background-color: rgb(38, 128, 46);
+}
+
+.initial-menu select {
+  width: 30%;
+  padding: 16px;
+  background-color: rgb(34, 36, 34);
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.score {
+  display: flex;
+  flex-direction: flex;
+  align-items: center;
+  font-size: 1.8rem;
+}
+
+.score--value {
+  font-weight: 700;
+  font-size: 4.5rem;
+  display: block;
+  margin-top: -10px;
+}
+
+.menu-screen {
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.game-over {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.final-score {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.btn-play {
+  border: none;
+  border-radius: 100px;
+  padding: 10px 15px 10px 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #333;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.error_text {
+  display: none;
+  width: 30%;
+  color: rgb(97, 10, 10);
+}
