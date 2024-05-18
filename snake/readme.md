@@ -4,6 +4,12 @@ Bem-vindo ao Snake Game! Este é um jogo clássico da cobrinha feito com HTML, C
 
 ## Images
 
+<img src="https://github.com/israelcruzz/games-with-javascript/blob/main/snake/src/assets/images/thumb.png" width="100%" height="100%">
+
+<img src="https://github.com/israelcruzz/games-with-javascript/blob/main/snake/src/assets/images/game.png" width="100%" height="100%">
+
+<img src="https://github.com/israelcruzz/games-with-javascript/blob/main/snake/src/assets/images/gameover.png" width="100%" height="100%">
+
 ## Funcionalidades
 
 - **Nome do Jogador:** Insira seu nome antes de começar o jogo.
