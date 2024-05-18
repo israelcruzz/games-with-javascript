@@ -2,7 +2,7 @@
 
 Bem-vindo ao Snake Game! Este é um jogo clássico da cobrinha feito com HTML, CSS e JavaScript.
 
-## Images
+## Imagens
 
 <img src="https://github.com/israelcruzz/games-with-javascript/blob/main/snake/src/assets/images/thumb.png" width="100%" height="100%">
 
